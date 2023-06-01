@@ -1,0 +1,30 @@
+/* Mr. Vohra went to a movie with his friends. During break time they bought Pizzas, Puffs and Cold Drinks. Consider the following prices:
+
+Rs.100/Pizza
+Rs.20/Puff
+Rs.10/Cold Drink
+Generate a bill!  */
+
+
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int No_of_Pizzas;
+        int No_of_Puffs;
+        int No_of_Cold_Drinks;
+
+        No_of_Pizzas = sc.nextInt();
+        No_of_Puffs = sc.nextInt();
+        No_of_Cold_Drinks = sc.nextInt();
+
+        int Total_price = (100 * No_of_Pizzas) + (20 * No_of_Puffs) + (10 * No_of_Cold_Drinks);
+
+        System.out.println("No of Pizzas: " + No_of_Pizzas);
+        System.out.println("No of Puffs: " + No_of_Puffs);
+        System.out.println("No of Cold Drinks: " + No_of_Cold_Drinks);
+        System.out.println("Total price = " + Total_price);
+        System.out.println("ENJOY THE SHOW!!!");
+    }
+}
