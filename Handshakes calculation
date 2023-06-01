@@ -1,0 +1,13 @@
+/* At the annual meeting of Board of Directors of Acme Inc. 
+If everyone attending shakes hands exactly one time with every other attendee, how many handshakes are there? */
+
+import java.util.Scanner;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n;
+        n=sc.nextInt();
+            int total_number_of_handshakes=(n-1) * (n / 2);
+            System.out.println(total_number_of_handshakes);
+    }
+}
